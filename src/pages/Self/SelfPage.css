@@ -1,0 +1,121 @@
+.selfPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+
+.selfPage--header {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.selfPage--header h1 {
+    font-size: 4rem;
+    font-family: var(--primaryFont);
+}
+
+.selfPage--container {
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.self--search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.self--input {
+    width: 30%;
+    height: 2.75rem;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 0.25rem 1rem;
+}
+
+.self--input::placeholder {
+    color: white;
+}
+
+.selfs--container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+
+.self-grid {
+    display: flex;
+    gap: 4rem;   
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .selfPage--header {
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .self-grid {
+        gap: 3rem;   
+    }
+    .self--input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 702px) {
+    .self-grid {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .selfPage--header h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .selfPage--header {
+        height: 20vh;
+    }
+    .selfPage--header h1 {
+        font-size: 2.5rem;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}

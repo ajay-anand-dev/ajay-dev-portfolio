@@ -1,0 +1,52 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: rgb(245, 247, 255); /* soft light background */
+  color: #333;
+  padding: 2rem;
+}
+
+.notfound-title {
+  font-size: 8rem;
+  font-weight: 900;
+  margin: 0;
+  color: rgb(84, 95, 196); /* primary color */
+  text-shadow: 2px 2px 6px rgba(84, 95, 196, 0.3);
+}
+
+.notfound-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: rgb(84, 95, 196);
+}
+
+.notfound-text {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.notfound-link {
+  display: inline-block;
+  background: rgb(84, 95, 196); /* button bg */
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.notfound-link:hover {
+  background: #fff;
+  color: rgb(84, 95, 196);
+  border: 2px solid rgb(84, 95, 196);
+  box-shadow: 0 4px 12px rgba(84, 95, 196, 0.3);
+}
