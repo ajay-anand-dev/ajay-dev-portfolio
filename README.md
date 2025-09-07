@@ -37,8 +37,8 @@ my-portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/react-portfolio.git
-   cd react-portfolio
+   git clone https://github.com/your-username/ajay-dev-portfolio.git
+   cd ajay-dev-portfolio
    ```
 
 2. **Install dependencies**
@@ -101,10 +101,10 @@ netlify deploy
 ## 📸 Screenshots
 
 ### Landing Section
-![Landing Section](./screenshots/landing.png)
+![Landing Section](https://raw.githubusercontent.com/ajay-anand-dev/ajay-dev-portfolio/main/screenshots/landing.png)
 
 ### Contact Form
-![Contact Form](./screenshots/contact.png)
+![Contact Form](https://raw.githubusercontent.com/ajay-anand-dev/ajay-dev-portfolio/main/screenshots/contact.png)
 
 ---
 
@@ -116,4 +116,4 @@ This project is licensed under the MIT License – feel free to use and modify.
 ## 👤 Author
 **Ajay Anand Srivastava**  
 - [LinkedIn](https://linkedin.com/in/ajay-srivastava5679)  
-- [GitHub](https://github.com/your-username)  
+- [GitHub](https://github.com/ajay-anand-dev/)  
