@@ -11,7 +11,7 @@ export const educationData = [
         institution: 'GITM Lucknow, AKTU',
         course: 'B.Tech in CSE',
         startYear: 'May 2015',
-        endYear: 'June 2019'
+        endYear: 'Jun 2019'
     },
     {
         id: 3,

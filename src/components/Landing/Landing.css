@@ -189,7 +189,7 @@
     padding: 0 2rem;
   }
   .lcr--content {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     margin-right: initial;
     width: 100%;
   }
@@ -219,14 +219,14 @@
 }
 
 @media (max-width: 500px) {
-  .lcr--content {
+  /* .lcr--content {
     margin-top: 35%;
-  }
+  } */
 }
 @media (max-width: 370px) {
-  .lcr--content {
+  /* .lcr--content {
     margin-top: 60%;
-  }
+  } */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
