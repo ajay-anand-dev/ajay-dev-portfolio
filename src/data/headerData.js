@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/AjayAnandSrivastavaResume.pdf'
+import resume from '../assets/pdf/AjayAnandSrivastava_Resume.pdf'
 import selfImage from '../assets/self/selfTwo.jpeg'
 
 export const headerData = {
