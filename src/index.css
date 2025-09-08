@@ -61,3 +61,18 @@ img{
       overflow-x: hidden;
     }
 }
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  transform: scale(0.8);     
+  transform-origin: 0 0;     
+  width: 125%;              
+  height: 125%;              
+  overflow-x: hidden;        
+}

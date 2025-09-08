@@ -23,7 +23,7 @@ function App() {
           <Route component={NotFound} />
         </Switch>
       </Router>
-      <BackToTop />
+      {/* <BackToTop /> */}
     </div>
   );
 }

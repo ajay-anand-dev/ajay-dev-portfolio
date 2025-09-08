@@ -1,5 +1,5 @@
 .singleSelf {
-    height: 300px;
+    height: 300px !important;
     width: 320px;
     display: flex;
     flex-direction: column;

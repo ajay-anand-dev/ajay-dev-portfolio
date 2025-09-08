@@ -39,7 +39,7 @@ function BackToTop() {
 
     return (
         <div
-            style={{ display: visible ? 'inline' : 'none' }}
+            style={{ display: false ? 'inline' : 'none' }}
             className='backToTop'
         >
             <button onClick={scrollToTop} aria-label='Back to top'>
