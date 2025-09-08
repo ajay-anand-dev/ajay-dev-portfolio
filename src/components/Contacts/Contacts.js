@@ -172,7 +172,7 @@ const Contacts = forwardRef((props, ref) => {
     const inputChangeHandler = (inputName, inputValue) => {
         setSuccessMsg('')
         if (inputName === 'name') {
-            setName(inputValue.trim());
+            setName(inputValue);
             if (inputValue.length <= 0) {
                 setNameErr('A name helps me address you better—please type yours.')
             } else {
@@ -182,7 +182,7 @@ const Contacts = forwardRef((props, ref) => {
             }
         }
         if (inputName === 'email') {
-            setEmail(inputValue.trim());
+            setEmail(inputValue);
             if (inputValue.length <= 0) {
                 setEmailErr('I’ll need your email to reply—please enter it.')
             } else {
@@ -192,11 +192,11 @@ const Contacts = forwardRef((props, ref) => {
             }
         }
         if (inputName === 'message') {
-            setMessage(inputValue.trim());
+            setMessage(inputValue);
             setMessageErr(validateMessage(inputValue))
         }
         if (inputName === 'contact') {
-            setContact(inputValue.trim());
+            setContact(inputValue);
             if (inputValue.length <= 0) {
                 setContactErr('I’ll need your contact to connect on whatsapp.')
             } else {
