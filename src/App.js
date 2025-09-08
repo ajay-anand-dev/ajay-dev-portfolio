@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Main, BlogPage, ProjectPage } from './pages'
-import { BackToTop } from './components'
+// import { BackToTop } from './components'
 import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css'
